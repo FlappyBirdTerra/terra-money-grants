@@ -13,30 +13,24 @@
 
 ## Project Overview
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
+Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be held in the Terra Treasury as an NFT), for a buildout in Web3 - combining NFT’s, play-to-earn [P2E] gaming mechanics and the addictive core loop of the original title as a casual gaming mobile dAPP.
 
 If this is an application for a follow-up grant (the continuation of an earlier, successful Terra grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
-Please provide the following:
+The original Flappy Bird, as released in 2013, is an arcade-style game in which the player controls the character (a bird), which moves persistently to the right. Players are tasked with navigating the bird through pairs of pipes that have equally sized gaps placed at random heights. Each successful pass through a pair of pipes would award the player one point. Colliding with a pipe or the ground ended the gameplay. 
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Terra.
-- An indication of why your team is interested in creating this project.
+Due to its addictive core loop, ease of access (mobile-no active internet required), and frustratingly difficult gameplay, Flappy became a cult classic, generating 50 million downloads by January 2014, making it one of the top free games on the Android and iOS app stores.
+With our ownership of the Flappy Bird IP in hand, we aim to recapture the magic of the original Flappy Bird brand, while adding the best that Web 3.0 has to offer.
+
+Flappy Bird on Terra will utilize Anchor’s API to leverage it’s yield earning components, transforming Flappy Bird into a Web 3.0 level progression game allowing for advancement, achievements, NFT’s and P2E mechanics (an asymmetric reward distribution based on player progress).
+
+We have decided to relaunch the title now, having owned the Flappy Bird IP since 2018 but not finding the proper timing/ecosystem to execute on our vision until now. With so many clones and knockoffs of Flappy - in name and game-play, reintroduction of the original brand only became captivating with the P2E revolution taking place in Web 3.0.  Terra, through the Anchor protocol, is uniquely positioned to support the first casual P2E game in the space, differentiated from all the current role playing and NFT games currently saturating the space. We see the reintroduction of the Flappy Bird brand into Web 3.0 as a major win for casual/social gaming and a bridge between mobile (Web 2.0) and P2E (Web 3.0)
+
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-    - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
 
