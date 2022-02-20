@@ -15,7 +15,6 @@
 
 Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be held in the Terra Treasury as an NFT), for a buildout in Web3 - combining NFT’s, play-to-earn [P2E] gaming mechanics and the addictive core loop of the original title as a casual gaming mobile dAPP.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful Terra grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
