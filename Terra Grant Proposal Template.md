@@ -4,9 +4,9 @@
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a > (such as this one) can be removed.See the Terra Grants Process on how to submit a proposal.
 > 
-- **Project Name:** Name of your project (e.g. Fantasy Investar)
-- **Team Name:** Legal name of your team (e.g. Fantary Investar)
-- **Payment Address:** Terra Address
+- **Project Name:** Flappy Bird Development
+- **Team Name:** Flappy Bird
+- **Payment Address:** terra1k6ceterzd6anffvgq72zcv78v0e6tn4fzeptwd
 
 > ⚠️ The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.
 > 
