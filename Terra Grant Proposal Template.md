@@ -176,14 +176,21 @@ Help us locate your project in the Terra landscape and what problems it tries to
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Jonathan David: Co-Founder
+- Chris Langbein: Co-Founder
+- Starloop/TBD: CTO / Product Development 
+   - Starloop Studios will handle initial development until we are out of beta, where upon an internal CTO and tech team will be hired.
+- Elena Montija: Chief Creative Officer
+- Will: Advisor
+- Joe: Advisor
+- Alex Ruthizer: Advisor
+
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. wagmi@terra.money)
-- **Website:**
+- **Contact Name:** Jonathan David
+- **Contact Email:** flappybirdterra@gmail.com
+- **Website:** *Under Development*
 
 ### Legal Structure
 
@@ -192,9 +199,15 @@ Help us locate your project in the Terra landscape and what problems it tries to
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+- Jonathan David is the co-owner of the Flappy Bird IP.  He has 7 years experience in mobile application development with Mobile Media Partners and Go Club Golf, helping to launch multiple top iOS and Google Play games including Apple’s first approved prize game WinSomething. Currently Jonathan is the co-founder and Managing Partner of BlockPoint Capital, a boutique cryptocurrency VC and trading fund, where he is focused on research, technology, trading system architecture, and advising token projects on liquidity and market dynamics.
 
-If anyone on your team has applied for a grant to Terra previously, please list the name of the project and legal entity here.
+- Chris Langbein is the co-owner of the Flappy Bird IP.  He has 12 years experience in mobile application development, most recently co-founding tech startup, Heard, a premier software and payments technology solution for restaurant and golf hospitality with golf legend Tiger Woods. Chris is also the co-founder and currently serves as CEO of two software development companies: Mobile Media Partners and Go Club Golf. Chris and his team have successfully launched several mobile apps that have garnered millions of downloads and reached top positions of the Apple App Store and Google Play Store charts. 
+ 
+- Elena Montijo Capetillo is the lead designer for Doodle Jump (the hit iOS/Android game with over 250mm dowloads), a freelance illustrator, 2D animator, concept artist and game designer. For many years she has worked on children’s media, from editorial illustrations, childrens books, animated content for interactive and educational video and mobile games as well as supervising toy merchandise and product development. Her knowledge of Fine Arts combined with Digital and Mixed media along with her passion in traveling has allowed her a wider spectrum when it comes to creativity and innovative design concepts. 
+ 
+- Alex has been working in the crypto space as an entrepreneur and investor since 2014.  He is a managing partner and founder of Blockpoint Capital, spending 2016-21 in Berlin overseeing the firm's European presence. Alex is focused on crypto investments, token project advisory and finance. Alex’s previous experience includes SpeechAgain, a revolutionary digital speech therapy app for stutterers, Strike Technologies, a trading infrastructure owner, and Affinity Capital Exchange, an exchange for securitized airline miles. Alex is a member of MetaCartel Ventures, one of the leading venture DAOs in the crypto space.  
+
+
 
 ### Team Code Repos
 
