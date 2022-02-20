@@ -29,6 +29,136 @@ We have decided to relaunch the title now, having owned the Flappy Bird IP since
 
 
 ### Project Details
+We will be partnering with the gaming development studio StarLoop Studios, which has been vetted by members of the Terra team for the initial build out. Their TDD for flappy is as follows:
+
+*Flappy Bird TerraLuna TDD Overview*
+ 
+**Main Technical Features:**
+- Delivery Platform: WebGL
+- The project will be made using Unity 2020.3.x LTS.
+- Version Control: GIT
+- Wallet and Blockchain:
+    - TerraStation to handles UST
+    - Terra.js SDK and Anchor JS
+- AzurePlayfab remote Leaderboards
+- Optional CDN and Addressables Systems
+- Security: Login System and Server Side logic on Azure Playfab and firewalls configurations to improve security.
+- Cinemachine will be used for camera controls.
+- Text Mesh Pro will be used for Text Rendering.
+- DoTween: procedural animations
+ 
+**NFT and Reward System**
+- Using Terra.js SDK and ANCHOR JS anchor gives 20% interest rate,  distribution of rewards 3%-1000% based on where they are in the world.  Asymmetrical reward system based on anchor.
+- Minting of many X^Y (X power Y) number of birds where X is the number of skills like (health, attack type, defense type, etc…) and Y are the values.
+- P2E UX needs to be easily to use and blockchain practically transparent. “My grandma can win crypto”. login, earn/buy/spend UST. This can be achieved by creating a session key the first time the user opens the app, and link this key to wallets and login accounts.
+ 
+**GamePlay Insights**
+- Infinite Levels that can be generated from 10 backgrounds and different spawning with procedural level generations.
+- Internal NFT shop of birds and their upgrade (up to 3 times).
+- If different updates are planned than will require a CDN service managed with the Addressable system.
+ 
+ 
+**Challenges to overcome**
+- List and minting of all NFTs (TBD how many/sale platform)
+- Partnering, and Learning from Terra about their Anchor library to for p2e features
+- The connection with Wallet system (Less Friction)
+    - https://medium.com/@cryptonumerist/how-to-acquire-the-base-stablecoin-of-terra-luna-buying-terrausd-ust-for-beginners-in-the-u-s-120923f143e
+    - https://www.youtube.com/watch?v=4gnFM1CFbOk
+ 
+ 
+*Code Standards and Guidelines [Internal]*
+ 
+ 
+**Variables**
+
+As a rule of thumb, every variable should be PRIVATE, unless there’s a good reason for a variable to be public. If you only need this variable to be shown in the Unity inspector, use the [SerializeField] attribute instead of making it public.
+ 
+All variable names should be as descriptive as possible. Avoid using contractions. E.g. prefer writing “distance” over “dst”.
+ 
+Variable names should use “camelCase”. E.g.: nameOfVariable.
+ 
+Properties should use “PascalCase”. E.g.: NameOfProperty
+ 
+Constants should be written in all caps: E.g.: NAMEOFCONSTANT
+ 
+Parameter names should usually have different names than class member variables, but in case it might end up being less descriptive to change the parameter name, it can have a “_” before it. E.g.: _nameOfParameter
+ 
+
+ 
+**Methods**
+
+Just like variables, all methods should be PRIVATE unless it needs to be accessed by another class.
+ 
+Public methods should always contain a “Summary” explaining what the method does.
+ 
+ 
+Method names should be as descriptive as possible and usually have a verb in the name.
+ 
+Method names should always use “PascalCase”. E.g.: NameOfMethod(parameter)
+ 
+Curly brackets should be positioned on the next line following the parameters of the method: E.g.:
+private void NameOfMethod(parameter)
+{
+              	\\Do something
+}
+ 
+When doing multiple method calls, try to spread the call into multiple lines. E.g:
+someVariable.DoSomething()
+              	.DoSomethingElse()
+              	.DoOneMoreThing();
+ 
+ 
+**Events & delegates**
+
+Event names should follow the same rules of the variable names.
+ 
+When using C# events, avoid using “Action” and “Func” and use “EventHandler<EventArgs>” instead, as that can help with possible future changes in the event parameters.
+ 
+Use Actions and Funcs only when passing lambdas as parameters.
+ 
+ 
+**Branching Policy**
+    
+The version control policy used will follow the “Git Flow” workflow.
+ 
+Summarizing:
+- The “Main/Master” branch is used for deployments ONLY, and each deployed version should be tagged with a version number. The version tag should be “vMajor.Minor.Fix”
+- A “Hotfix” branch should be created for fixing and other changes that were overlooked, and should be merged to both the “Main” and “Develop” branches. Hotfixes branches should be named “hotfix/name-of-fix”
+- A “Release” branch should be created for each “Release Candidate” (a version of the game that is ready for deployment, but still needs testing). Release branches should be merged to both “Main” and “Develop” when finished, just like Hotfixes. Release branches should be named “release/name-of-release”
+- The “Develop” branch is the main branch developers should be working on, although the only commits that should be made into this branch are merges. Instead, developers should use this branch to create new “Feature” branches
+- A “Feature” branch should be created for each new feature that’s going to be added to the “Develop” branch. Feature branches should be named “feature/name-of-the-feature”
+- Hotfixes, Releases and Features branches should be DELETED after being merged.
+- Ideally, a Pull Request should be created before merging a branch, for Code Review.
+- The only person merging features should be the project lead, after doing the Code Review.
+ 
+**UI**
+    
+The game UI will be separated into 3 “main” canvas:
+ 
+- A “menu” canvas, where the current screen will be shown (for example, the inventory & quest UIs fits here). Only one screen of this type can be active at any time (making it work like a state machine)
+- An “overlay” canvas, for popups and other temporary things that should be rendered in front of the main screen
+- A “hud” canvas, where UIs that are active at basically all times are placed (like the coin counter)
+ 
+This is done more for organization purposes, but we also get the benefit of being more performant since Unity won’t have to redraw the entire UI every time something happens.
+Each “main” canvas can have its own sub-canvases if necessary.
+ 
+Sometimes the game will need to mix some 3D elements with the UI elements. To achieve this, the game will use 2 cameras: a “world” camera and a “UI” camera.
+ 
+- The world camera will render the environments and other “world” objects.
+- The UI camera will be placed far away from the world camera and should be treated like a World Canvas, although its “render mode” should be set to “Camera”, with the UI camera as the reference. This basically means the placement of UI elements should take advantage of the Z axis for “layering” the 3D elements.
+ 
+ 
+**Game Data Sheets**
+
+Certain objects and data of the game will need to be tweaked many times. For that, we need to achieve the following criteria:
+ 
+- Data needs to be easy to edit and test
+- Data needs to be updated on clients without the need of a new build of the project
+ 
+To fulfill these criteria, this data needs to be downloaded from the server and, for that, the project will use a mix of certain standards:
+ 
+- Localization texts and item preferences will be defined using a CSV
+- Objects will be created using prefabs, and will use Unity’s built-in Addressable
 
 
 ### Ecosystem Fit
