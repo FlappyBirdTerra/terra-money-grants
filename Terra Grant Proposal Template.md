@@ -163,14 +163,82 @@ To fulfill these criteria, this data needs to be downloaded from the server and,
 
 ### Ecosystem Fit
 
-Help us locate your project in the Terra landscape and what problems it tries to solve by answering each of these questions:
+Flappy Bird will be the first P2E casual mobile game in the Terra ecosystem.  We are not so much trying to solve a problem, as we are trying to bring further utility and usage to UST, specifically through the Anchor protocol. 
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Terra ecosystem?
-    - If so, how is your project different?
-    - If not, are there similar projects in related ecosystems?
+Our target audience will initially be the crypto native demographic (those familiar with crypto, nft’s, defi, etc).  There will initially be friction in onboarding of users due to the need to create Terra wallets and accounts.  Our long term vision is to create a more frictionless experience, more similar to the mobile Web 2.0 experience, allowing us to onboard non-crypto natives into the Terra ecosystem. We see Flappy’s long-term upside as an on-ramp and marketing tool for Anchor and its neo-bank products, as its brand recognition will bring interest of new users as well as provide a test case for integrating casual gaming into the terra ecosystem.  
+
+Our project helps bridge the gap between non-crypto natives and casual mobile gamers.  It’s no secret that currently, the majority of P2E games are intense role playing games, and their UI/UX is often best rendered on PC, and not necessarily mobile friendly.  Similar to the Washington Nationals deal helping to bring Terra mainstream through a traditional marketing approach, we see Flappy Bird as a bridge to traditional commerce/gaming by offering a legendary brand in an innovative game with new tools (NFT’s, P2E, and DeFi).
+
+While Terra is focused on building P2E games, has partnered with Gamevil, and is building out their own gaming arm, Flappy Bird is a unique brand and new approach to the P2E gaming revolution - focused on casual mobile gaming. We are not aware, as of yet, of any other game in the Terra ecosystem focused on this approach, and of course, Flappy Bird itself is an iconic brand to bring to the Terra ecosystem.
+
+A similar and well funded project, [Fancy Birds](https://www.fancybirds.io/) is currently under way in the crypto space, being built on Polygon. Some of their better known investors include the following: Kain Warwick from Synthetix, Stani Kulechov from Aave, Tyler Ward from Barnbridge, angel investor Santiago Santos (ex-ParaFi Capital) and 0xmaki from Sushi.  Their next round of financing looks to include Framework Ventures, Delphi Digital and a16z.  What Fancy Birds does not have, is the original Flappy Bird brand, or the yield engine that is Anchor protocol and UST behind it. We will differentiate on brand and DeFi technology.
+ 
+A thank you to the Terra team for their efforts in providing initial technical assistance on integration between the front end Flappy Bird build specs and the backend integration to Anchor protocol.  
+
+Below are the initial tech specs per Terra:
+
+**Tech Integration Overview**
+1.	Necessary SDKs & Contract spec overview
+2.	Decisions to be made & Challenges to overcome
+
+ **SDKs and Contract Spec**
+- Msg execution to Terra blockchain: Terra.js
+https://github.com/terra-money/terra.js 
+ - Since there will be only interactions with the new set of contracts, Anchor.js won’t be necessary
+- Contracts: CosmWasm (Rust) (CW721 for NFT tokens)
+
+ **Contracts**
+
+ *Anchor Earn contract (Already made)*
+- All principle reward will be generated from Anchor Market contract with UST deposits.
+
+**Reward Contract**
+ 
+ Reward contract is responsible for keeping track of each user’s (character’s) level.
+- Based on each user’s attributes (within the NFT), the share of reward distributed to each address will change.
+- Each users info consists of:
+  - User address (or NFT token address): To identify the character / user eligible for the reward
+  - Reward rate (level of each character): a number used to calculate the ratio of reward distribution each user is receiving (for example, if reward rates for 3 users are 1, 2, and 3, each user will get 1/6, 2/6, 3/6 of the total reward generated)
+    - Skewed distribution: exponential increase as the rate goes up
+    - Make the parameter of the multiplier into something that is adjustable through an ExecuteMsg with a specific Auth
+- Operations
+  - Update reward rate: When there is an in-game change on each character’s level, a transaction must be made to the blockchain to Reward Contract to update the reward rate (This is an operation only authorized by the game server)
+  - Claim Reward: Burns aUST to claim UST from Anchor Market contract for a specific user.
+
+**NFT Contract (CW721)**
+ 
+NFT standard that is compatible with Terra blockchain. Can be used to represent an individual character within the game.
+- Operations
+  - Mint (create character): A new CW721 token is created when user creates a new character in-game
+  - Burn (burnt when deleting or upgrading): Only authorized to burn by the user or the NFT Upgrade contract.
+- Features: attributes are applied to CW721 contract. We can create these contracts to have key (Names of skills and features) and value (Value applies to each Key)
+
+**NFT Upgrade Contract**
+- Upgrade rules: Tied to their progress within the game
+- Customizations: Attribute updates from Game server / contract (no impact to the yield) - Check if one purchase of an attribute can be applied to the next NFTs characters
+
+Upgrade of NFT will occur in the following flow:
+
+1.	User sends a transaction to upgrade an NFT token by burning what he owned previously
+2.	A new NFT token with new set of attributes is minted based on a set of “rule” for the upgrade (For instance, a rule could be something like combination of two NFTs that results in upgrade in specific value within the attribute field)
+- Operations
+  - Upgrade: consists of two separate operations where
+    - burn: burns the NFTs currently owned by the user
+    - mint: mints a new NFT as a result of burning the previous one (new attributes)
+
+**Other components**
+- Terra Station Wallet: Once Terra Station allows the login to the Flappy game, users do not have to login every time they play the game (unless the game has been updated or renewed)
+  - Try to make it so that blockchain doesn’t seem to be involved - Starloop might have an idea
+- Game Server: Every time there is an interaction between the game and the blockchain, a transaction has to be sent from the game to the chain in order to update the new state (for instance, if the user levels up, a transaction must be sent to the chain to update the state of the NFT)
+  - One reason for having a centralized game server in the middle is due to potential transaction manipulation: Only authorized keys must be able to sign transactions that record level ups.
+
+**Decisions to be made and challenges to overcome**
+1.	Where does the initial amount of UST to generate Anchor yield come from?
+     1. By selling NFT (which accrues Yield)
+     2. Allow users to use Anchor Earn (later on)
+     3. Marketing Options to be considered for the first x number of users
+2.	Transaction queue: Terra blockchain as a queue of transactions. If the number / total sum of sizes of transactions exceed the max limit of each block, it will be automatically scheduled to be executed in the blocks to come after. There is no mempool, thus paying more tx fee won’t execute any transaction before others.
+ 
 
 ## Team
 
@@ -274,7 +342,40 @@ For each milestone,
 - **FTE:** 1
 - **Costs:** 4,000 USD
 
-...
+Flappy Bird Development Timeline
+
+Use of proceeds - $30,000 to get Starloop started
+
+Month 0 
+Pre-production
+Est Cost: $20,000
+Source of funding: $30,000 Terra community grant
+
+Month 1
+Pre-Production 
+Est Cost: $75,000
+Source of funding: Terra community grant + follow on grant with Terra + misc Dev grants
+
+Month 2-4
+MVP Production
+Est Cost: $350,000
+Source of funding: Follow on grant with Terra + misc Dev grants+Dao investment+VC Investment
+
+Month 5
+Soft Launch and build in house team (GM, Devs, Producer)
+Est Cost: $170,000
+Source of funding: VC Investment
+
+Month 6-12
+Maintain Crypto version launch, build web 2.0/consumer version, build in house team (Devs, Marketing, Biz Dev)
+Est Cost: $920,000
+Source of funding: VC Investment and token launch
+
+Month 12+
+Launch  web 2.0/consumer version, continue to grow team
+Estimated runway from remaining year 1 raise: $3 months
+Source of continuing funding: VC investment
+
 
 ## Future Plans
 
