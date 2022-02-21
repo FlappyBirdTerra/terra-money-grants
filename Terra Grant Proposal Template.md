@@ -248,7 +248,7 @@ Upgrade of NFT will occur in the following flow:
 - Chris Langbein: Co-Founder
 - Starloop/TBD: CTO / Product Development 
    - Starloop Studios will handle initial development until we are out of beta, where upon an internal CTO and tech team will be hired.
-- Elena Montija: Chief Creative Officer
+- Elena Montijo: Chief Creative Officer
 - Will: Advisor
 - Joe: Advisor
 - Alex Ruthizer: Advisor
@@ -285,13 +285,21 @@ Upgrade of NFT will occur in the following flow:
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- [https://github.com/](https://github.com/)<team_member_1>
-- [https://github.com/](https://github.com/)<team_member_2>
+- [Elena Montijo](http://www.elenamontijo.com/)
+- Chris Langbein
+  - [Mobile Media Partners](https://www.mobilemediaco.com/)
+  - [Go Club](https://goclubgolf.com/)
+  - [Heard](https://www.tryheard.com/)
 
 ### Team LinkedIn Profiles (if available)
 
-- [https://www.linkedin.com/](https://www.linkedin.com/)<person_1>
-- [https://www.linkedin.com/](https://www.linkedin.com/)<person_2>
+- [Jonathan David](https://www.linkedin.com/in/jonathan-david-14139370/)
+- [Chris Langbein](https://www.linkedin.com/in/chris-langbein-1990a145/)
+- [Elena Montijo](https://www.linkedin.com/in/elena-montijo/)
+- [Will]
+- [Joe]
+- [Alex Ruthizer](https://www.linkedin.com/in/alexruthizer/)
+ 
 
 ## Development Status
 
@@ -379,10 +387,11 @@ Source of continuing funding: VC investment
 
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- In game NFTs will be created prior to game launch.
+- There will be a Flappy Bird token associated with the game, and those staking their pre-mined NFTs will be rewarded these Flappy Bird tokens.
+- Depending on community support and interest prior to the game's beta launch, we will explore air dropping Flappy Bird tokens to the Terra community.
+- Before determining tokenomics per the Flappy token as it relates to Anchor and Luna, we will be doing a deeper dive on the successes and failures of current popular P2E games such as Axie Infinity.
+- The long term vision for Flappy Bird is to be a franchise title the likes of Mario Brother for Nintendo, but for Terra-Luna in Web 3.0, helping to drive UST adoption and Anchor Protocol usage.
 
 ## Additional Information
 
