@@ -257,8 +257,8 @@ Upgrade of NFT will occur in the following flow:
 ### Contact
 
 - **Contact Name:** Jonathan David
-- **Contact Email:** flappybirdterra@gmail.com
-- **Website:** *Under Development*
+- **Contact Email:** jonathan@flappybirdterra.com
+- **Website:** http://flappybirdterra.com/ *Under Development*
 
 ### Legal Structure
 
@@ -279,9 +279,10 @@ Upgrade of NFT will occur in the following flow:
 
 ### Team Code Repos
 
-- [https://github.com/](https://github.com/)<your_organisation>
-- [https://github.com/](https://github.com/)<your_organisation>/<project_1>
-- [https://github.com/](https://github.com/)<your_organisation>/<project_2>
+- Next Frontier Labs
+  - [Rock-Paper-Scissors](https://github.com/pun777chy/Rock-Paper-Scissors)
+  - [Car Jam Puzzle](https://github.com/nextfrontierlabs/CarJamPuzzle)
+  - [KarateFighterZombie](https://github.com/nextfrontierlabs/KarateFighterZombie)
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
@@ -290,6 +291,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
   - [Mobile Media Partners](https://www.mobilemediaco.com/)
   - [Go Club](https://goclubgolf.com/)
   - [Heard](https://www.tryheard.com/)
+- Haris Ali Baig
+  - [Next Frontier Labs](https://github.com/pun777chy)
 
 ### Team LinkedIn Profiles (if available)
 
