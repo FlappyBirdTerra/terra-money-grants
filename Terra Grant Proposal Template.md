@@ -13,19 +13,19 @@
 
 ## Project Overview
 
-Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be held in the Terra Treasury as an NFT), for a buildout in Web3 - combining NFT’s, play-to-earn [P2E] gaming mechanics and the addictive core loop of the original title as a casual gaming mobile dAPP.
+Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be held in the Terra Treasury as an NFT), for a buildout in Web3 - combining NFTs, play-to-earn [p2e] gaming mechanics and the addictive core loop of the original title - all as a casual gaming mobile dAPP.
 
 
 ### Overview
 
 The original Flappy Bird, as released in 2013, is an arcade-style game in which the player controls the character (a bird), which moves persistently to the right. Players are tasked with navigating the bird through pairs of pipes that have equally sized gaps placed at random heights. Each successful pass through a pair of pipes would award the player one point. Colliding with a pipe or the ground ended the gameplay. 
 
-Due to its addictive core loop, ease of access (mobile-no active internet required), and frustratingly difficult gameplay, Flappy became a cult classic, generating 50 million downloads by January 2014, making it one of the top free games on the Android and iOS app stores.
+Due to its addictive core loop, ease of access (mobile and no active internet required during gameplay), and frustratingly difficult gameplay, Flappy became a cult classic, generating 50 million downloads by January 2014, making it one of the top free games on the Android and iOS app stores.
 With our ownership of the Flappy Bird IP in hand, we aim to recapture the magic of the original Flappy Bird brand, while adding the best that Web 3.0 has to offer.
 
-Flappy Bird on Terra will utilize Anchor’s API to leverage it’s yield earning components, transforming Flappy Bird into a Web 3.0 level progression game allowing for advancement, achievements, NFT’s and P2E mechanics (an asymmetric reward distribution based on player progress).
+Flappy Bird on Terra will utilize Anchor’s API to leverage its yield earning components, transforming Flappy Bird into a Web 3.0 level progression game allowing for advancement, achievements, NFTs and p2e mechanics (an asymmetric reward distribution based on player progress).
 
-We have decided to relaunch the title now, having owned the Flappy Bird IP since 2018 but not finding the proper timing/ecosystem to execute on our vision until now. With so many clones and knockoffs of Flappy - in name and game-play, reintroduction of the original brand only became captivating with the P2E revolution taking place in Web 3.0.  Terra, through the Anchor protocol, is uniquely positioned to support the first casual P2E game in the space, differentiated from all the current role playing and NFT games currently saturating the space. We see the reintroduction of the Flappy Bird brand into Web 3.0 as a major win for casual/social gaming and a bridge between mobile (Web 2.0) and P2E (Web 3.0)
+We have decided to relaunch the title now, having owned the Flappy Bird IP since 2018 but not finding the proper timing/ecosystem to execute on our vision until now. With so many clones and knockoffs of Flappy - in name and game-play, reintroduction of the original brand only became captivating with the p2e revolution taking place in Web 3.0.  Terra, through the Anchor protocol, is uniquely positioned to support the first casual p2e game in the space, differentiated from all the current role playing and NFT games currently saturating the space. We see the reintroduction of the Flappy Bird brand into Web 3.0 as a major win for casual/social gaming and a bridge between mobile (Web 2.0) and p2e (Web 3.0)
 
 
 ### Project Details
@@ -50,7 +50,7 @@ We will be partnering with the gaming development studio StarLoop Studios, which
 **NFT and Reward System**
 - Using Terra.js SDK and ANCHOR JS anchor gives 20% interest rate,  distribution of rewards 3%-1000% based on where they are in the world.  Asymmetrical reward system based on anchor.
 - Minting of many X^Y (X power Y) number of birds where X is the number of skills like (health, attack type, defense type, etc…) and Y are the values.
-- P2E UX needs to be easily to use and blockchain practically transparent. “My grandma can win crypto”. login, earn/buy/spend UST. This can be achieved by creating a session key the first time the user opens the app, and link this key to wallets and login accounts.
+- p2e UX needs to be easily to use and blockchain practically transparent. “My grandma can win crypto”. login, earn/buy/spend UST. This can be achieved by creating a session key the first time the user opens the app, and link this key to wallets and login accounts.
  
 **GamePlay Insights**
 - Infinite Levels that can be generated from 10 backgrounds and different spawning with procedural level generations.
@@ -163,13 +163,13 @@ To fulfill these criteria, this data needs to be downloaded from the server and,
 
 ### Ecosystem Fit
 
-Flappy Bird will be the first P2E casual mobile game in the Terra ecosystem.  We are not so much trying to solve a problem, as we are trying to bring further utility and usage to UST, specifically through the Anchor protocol. 
+Flappy Bird will be the first p2e casual mobile game in the Terra ecosystem.  We are not so much trying to solve a problem, as we are trying to bring further utility and usage to UST, specifically through the Anchor protocol. 
 
 Our target audience will initially be the crypto native demographic (those familiar with crypto, nft’s, defi, etc).  There will initially be friction in onboarding of users due to the need to create Terra wallets and accounts.  Our long term vision is to create a more frictionless experience, more similar to the mobile Web 2.0 experience, allowing us to onboard non-crypto natives into the Terra ecosystem. We see Flappy’s long-term upside as an on-ramp and marketing tool for Anchor and its neo-bank products, as its brand recognition will bring interest of new users as well as provide a test case for integrating casual gaming into the terra ecosystem.  
 
-Our project helps bridge the gap between non-crypto natives and casual mobile gamers.  It’s no secret that currently, the majority of P2E games are intense role playing games, and their UI/UX is often best rendered on PC, and not necessarily mobile friendly.  Similar to the Washington Nationals deal helping to bring Terra mainstream through a traditional marketing approach, we see Flappy Bird as a bridge to traditional commerce/gaming by offering a legendary brand in an innovative game with new tools (NFT’s, P2E, and DeFi).
+Our project helps bridge the gap between non-crypto natives and casual mobile gamers.  It’s no secret that currently, the majority of p2e games are intense role playing games, and their UI/UX is often best rendered on PC, and not necessarily mobile friendly.  Similar to the Washington Nationals deal helping to bring Terra mainstream through a traditional marketing approach, we see Flappy Bird as a bridge to traditional commerce/gaming by offering a legendary brand in an innovative game with new tools (NFT’s, p2e, and DeFi).
 
-While Terra is focused on building P2E games, has partnered with Gamevil, and is building out their own gaming arm, Flappy Bird is a unique brand and new approach to the P2E gaming revolution - focused on casual mobile gaming. We are not aware, as of yet, of any other game in the Terra ecosystem focused on this approach, and of course, Flappy Bird itself is an iconic brand to bring to the Terra ecosystem.
+While Terra is focused on building p2e games, has partnered with Gamevil, and is building out their own gaming arm, Flappy Bird is a unique brand and new approach to the p2e gaming revolution - focused on casual mobile gaming. We are not aware, as of yet, of any other game in the Terra ecosystem focused on this approach, and of course, Flappy Bird itself is an iconic brand to bring to the Terra ecosystem.
 
 A similar and well funded project, [Fancy Birds](https://www.fancybirds.io/) is currently under way in the crypto space, being built on Polygon. Some of their better known investors include the following: Kain Warwick from Synthetix, Stani Kulechov from Aave, Tyler Ward from Barnbridge, angel investor Santiago Santos (ex-ParaFi Capital) and 0xmaki from Sushi.  Their next round of financing looks to include Framework Ventures, Delphi Digital and a16z.  What Fancy Birds does not have, is the original Flappy Bird brand, or the yield engine that is Anchor protocol and UST behind it. We will differentiate on brand and DeFi technology.
  
@@ -390,7 +390,7 @@ Source of continuing funding: VC investment
 - In game NFTs will be created prior to game launch.
 - There will be a Flappy Bird token associated with the game, and those staking their pre-mined NFTs will be rewarded these Flappy Bird tokens.
 - Depending on community support and interest prior to the game's beta launch, we will explore air dropping Flappy Bird tokens to the Terra community.
-- Before determining tokenomics per the Flappy token as it relates to Anchor and Luna, we will be doing a deeper dive on the successes and failures of current popular P2E games such as Axie Infinity.
+- Before determining tokenomics per the Flappy token as it relates to Anchor and Luna, we will be doing a deeper dive on the successes and failures of current popular p2e games such as Axie Infinity.
 - The long term vision for Flappy Bird is to be a franchise title the likes of Mario Brother for Nintendo, but for Terra-Luna in Web 3.0, helping to drive UST adoption and Anchor Protocol usage.
 
 ## Additional Information
