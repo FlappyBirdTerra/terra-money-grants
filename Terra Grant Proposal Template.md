@@ -280,9 +280,9 @@ Upgrade of NFT will occur in the following flow:
 ### Team Code Repos
 
 - Next Frontier Labs
-  - [Rock-Paper-Scissors](https://github.com/pun777chy/Rock-Paper-Scissors)
+  - [Rock Paper Scissors](https://github.com/pun777chy/Rock-Paper-Scissors)
   - [Car Jam Puzzle](https://github.com/nextfrontierlabs/CarJamPuzzle)
-  - [KarateFighterZombie](https://github.com/nextfrontierlabs/KarateFighterZombie)
+  - [Karate Fighter Zombie](https://github.com/nextfrontierlabs/KarateFighterZombie)
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
