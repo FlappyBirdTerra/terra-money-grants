@@ -13,7 +13,7 @@
 
 ## Project Overview
 
-Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be stored as an NFT on the Terra blockchain). We are the sole owners of the Flappy Bird global trademark/inellectual property covering all gaming and digital rights usages - Now is the time bring Flappy Bird back to life for a buildout in Web3 - combining NFTs, play-to-earn [p2e] gaming mechanics and the addictive core loop of the original title - all as a casual gaming mobile dAPP. 
+Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be stored as an NFT on the Terra blockchain). We are the sole owners of the Flappy Bird global trademark/inellectual property covering all gaming and digital rights usages (Despite all the clones, no other game or digital property in web 2 or web 3 can legally use the Flappy Bird name) - Now is the time bring Flappy Bird back to life for a buildout in Web3 - combining NFTs, play-to-earn [p2e] gaming mechanics and the addictive core loop of the original title - all as a casual gaming mobile dAPP. 
 
 
 ### Overview
@@ -267,13 +267,13 @@ Upgrade of NFT will occur in the following flow:
 
 ### Team's experience
 
-- Jonathan David is the co-owner of the Flappy Bird IP.  He has 7 years experience in mobile application development with Mobile Media Partners and Go Club Golf, helping to launch multiple top iOS and Google Play games including Apple’s first approved prize game WinSomething. Currently Jonathan is the co-founder and Managing Partner of BlockPoint Capital, a boutique cryptocurrency VC and trading fund, where he is focused on research, technology, trading system architecture, and advising token projects on liquidity and market dynamics.
+- Jonathan David is a co-owner of the Flappy Bird IP.  He has 7 years experience in mobile application development with Mobile Media Partners and Go Club Golf, helping to launch multiple top iOS and Google Play games including Apple’s first approved prize game WinSomething. Currently Jonathan is the co-founder and Managing Partner of BlockPoint Capital, a boutique cryptocurrency VC and trading fund, where he is focused on research, technology, trading system architecture, and advising token projects on liquidity and market dynamics.
 
-- Chris Langbein is the co-owner of the Flappy Bird IP.  He has 12 years experience in mobile application development, most recently co-founding tech startup, Heard, a premier software and payments technology solution for restaurant and golf hospitality with golf legend Tiger Woods. Chris is also the co-founder and currently serves as CEO of two software development companies: Mobile Media Partners and Go Club Golf. Chris and his team have successfully launched several mobile apps that have garnered millions of downloads and reached top positions of the Apple App Store and Google Play Store charts. 
+- Chris Langbein is a co-owner of the Flappy Bird IP.  He has 12 years experience in mobile application development, most recently co-founding tech startup, Heard, a premier software and payments technology solution for restaurant and golf hospitality with golf legend Tiger Woods. Chris is also the co-founder and currently serves as CEO of two software development companies: Mobile Media Partners and Go Club Golf. Chris and his team have successfully launched several mobile apps that have garnered millions of downloads and reached top positions of the Apple App Store and Google Play Store charts. 
  
-- Elena Montijo Capetillo is the lead designer for Doodle Jump (the hit iOS/Android game with over 250mm dowloads), a freelance illustrator, 2D animator, concept artist and game designer. For many years she has worked on children’s media, from editorial illustrations, childrens books, animated content for interactive and educational video and mobile games as well as supervising toy merchandise and product development. Her knowledge of Fine Arts combined with Digital and Mixed media along with her passion in traveling has allowed her a wider spectrum when it comes to creativity and innovative design concepts. 
+- Elena Montijo Capetillo is the lead designer for Doodle Jump (the hit iOS/Android game with over 250mm dowloads), an illustrator, 2D animator, concept artist and game designer. For many years she has worked on children’s media, from editorial illustrations, childrens books, animated content for interactive and educational video and mobile games as well as supervising toy merchandise and product development. Her knowledge of Fine Arts combined with Digital and Mixed media along with her passion in traveling has allowed her a wider spectrum when it comes to creativity and innovative design concepts. 
  
-- Alex has been working in the crypto space as an entrepreneur and investor since 2014.  He is a managing partner and founder of Blockpoint Capital, spending 2016-21 in Berlin overseeing the firm's European presence. Alex is focused on crypto investments, token project advisory and finance. Alex’s previous experience includes SpeechAgain, a revolutionary digital speech therapy app for stutterers, Strike Technologies, a trading infrastructure owner, and Affinity Capital Exchange, an exchange for securitized airline miles. Alex is a member of MetaCartel Ventures, one of the leading venture DAOs in the crypto space.  
+- Alex is a co-owner of the Flappy Bird IP. He has been working in the crypto space as an entrepreneur and investor since 2014.  He is a managing partner and founder of Blockpoint Capital, spending 2016-21 in Berlin overseeing the firm's European presence. Alex is focused on crypto investments, token project advisory and finance. Alex’s previous experience includes SpeechAgain, a revolutionary digital speech therapy app for stutterers, Strike Technologies, a trading infrastructure owner, and Affinity Capital Exchange, an exchange for securitized airline miles. Alex is a member of MetaCartel Ventures, one of the leading venture DAOs in the crypto space.  
 
 
 
@@ -315,29 +315,6 @@ If you've already started implementing your project or it is part of a larger re
 - previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap
-
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Terra. We *recommend* that the scope of the work can fit within a three-month period and that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. *Treat it as a contract*; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested *per milestone*.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> If any of your deliverables is based on somebody else's work, make sure you work and publish under the terms of the license of the respective project and that you highlight this fact in your milestone documentation and in the source code if applicable! Teams that submit others' work without attributing it will be immediately terminated.
-> 
-
-### Overview
-
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):** Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Amount of payment in USD for the whole project. The total amount of funding *needs to be below $30k for initial grants* and $100k for follow-up grants. (e.g. 12,000 USD). This and the costs for each milestone need to be in USD; if the grant is paid out in Luna, the amount will be calculated according to the exchange rate at the time of payment.
 
 *Flappy Bird Development Timeline*
 
