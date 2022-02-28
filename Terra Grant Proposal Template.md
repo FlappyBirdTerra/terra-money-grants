@@ -384,10 +384,9 @@ Source of continuing funding: VC investment
 
 ## Additional Information
 
-**How did you hear about the Grants Program?** Terra Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** 
+ 
+TFL
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- Wheter there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
