@@ -13,7 +13,7 @@
 
 ## Project Overview
 
-Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be stored as an NFTon the Terra blockchain). We are the sole owners of Flappy Bird Trademark/inellectual property covering all gaming and digital rights usages - Now is the time bring Flappy Bird back to life for a buildout in Web3 - combining NFTs, play-to-earn [p2e] gaming mechanics and the addictive core loop of the original title - all as a casual gaming mobile dAPP. 
+Flappy Bird on Terra will bring back the legendary Flappy Bird mobile game, (with the [gaming rights IP](https://trademarks.justia.com/861/88/flappy-86188824.html) - to now be stored as an NFT on the Terra blockchain). We are the sole owners of the Flappy Bird Trademark/inellectual property covering all gaming and digital rights usages - Now is the time bring Flappy Bird back to life for a buildout in Web3 - combining NFTs, play-to-earn [p2e] gaming mechanics and the addictive core loop of the original title - all as a casual gaming mobile dAPP. 
 
 
 ### Overview
