@@ -50,7 +50,7 @@ We will be partnering with the gaming development studio StarLoop Studios, which
 - DoTween: procedural animations
  
 **NFT and Reward System**
-- Using Terra.js SDK and ANCHOR JS anchor gives 20% interest rate,  distribution of rewards 3%-1000% based on where they are in the world.  Asymmetrical reward system based on anchor.
+- Using Terra.js SDK and ANCHOR JS anchor gives 20% interest rate which will flow through gameplay.
 - Minting of many X^Y (X power Y) number of birds where X is the number of skills like (health, attack type, defense type, etc…) and Y are the values.
 - p2e UX needs to be easily to use and blockchain practically transparent. “My grandma can win crypto”. login, earn/buy/spend UST. This can be achieved by creating a session key the first time the user opens the app, and link this key to wallets and login accounts.
  
@@ -63,6 +63,7 @@ We will be partnering with the gaming development studio StarLoop Studios, which
 **Challenges to overcome**
 - List and minting of all NFTs (TBD how many/sale platform)
 - Partnering, and Learning from Terra about their Anchor library to for p2e features
+- Creating a tokenomic model that is fair and accrues value for Flappy Bird players and Flappy token and Luna token holders.
 - The connection with Wallet system (Less Friction)
     - https://medium.com/@cryptonumerist/how-to-acquire-the-base-stablecoin-of-terra-luna-buying-terrausd-ust-for-beginners-in-the-u-s-120923f143e
     - https://www.youtube.com/watch?v=4gnFM1CFbOk
@@ -201,7 +202,6 @@ https://github.com/terra-money/terra.js
 - Each users info consists of:
   - User address (or NFT token address): To identify the character / user eligible for the reward
   - Reward rate (level of each character): a number used to calculate the ratio of reward distribution each user is receiving (for example, if reward rates for 3 users are 1, 2, and 3, each user will get 1/6, 2/6, 3/6 of the total reward generated)
-    - Skewed distribution: exponential increase as the rate goes up
     - Make the parameter of the multiplier into something that is adjustable through an ExecuteMsg with a specific Auth
 - Operations
   - Update reward rate: When there is an in-game change on each character’s level, a transaction must be made to the blockchain to Reward Contract to update the reward rate (This is an operation only authorized by the game server)
