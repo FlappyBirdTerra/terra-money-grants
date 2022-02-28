@@ -27,7 +27,7 @@ Flappy Bird on Terra will utilize Anchor’s API to leverage its yield earning c
 
 We have decided to relaunch the title now, having owned the Flappy Bird IP since 2018 but not finding the proper timing/ecosystem to execute on our vision until now. With so many clones and knockoffs of Flappy - in name and game-play, reintroduction of the original brand only became captivating with the p2e revolution taking place in Web 3.0.  Terra, through the Anchor protocol, is uniquely positioned to support the first casual p2e game in the space, differentiated from all the current role playing and NFT games currently saturating the space. We see the reintroduction of the Flappy Bird brand into Web 3.0 as a major win for casual/social gaming and a bridge between mobile (Web 2.0) and p2e (Web 3.0).
 
-With this in mind our intention is to launch a Flappy Bird token on the Terra blockchain which will accrue value from game usage, community growth and NFT ecosystem. A native Flappy Bird token also positions the brand to extend into further Web 3.0 utility, such as an entire Flappy Bird metaverse. The tokenomics model is not as of yet finalized but will be created in collaboration with the Terra team. Whether through an airdrop or other mechanisms we will aim to ensure that luna and anchor stakers receive Flappy Bird tokens.
+With this in mind our intention is to launch a Flappy Bird game on the Terra blockchain which will accrue value from game usage, community growth and NFT ecosystem. Native Flappy Bird NFT characters also position the brand to extend into further Web 3.0 utility, such as an entire Flappy Bird metaverse. The tokenomics model is not as of yet finalized but will be created in collaboration with the Terra team.
 
 
 ### Project Details
