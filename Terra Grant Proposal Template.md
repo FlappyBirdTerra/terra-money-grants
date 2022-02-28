@@ -339,21 +339,7 @@ For each milestone,
 - **Full-Time Equivalent (FTE):** Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Amount of payment in USD for the whole project. The total amount of funding *needs to be below $30k for initial grants* and $100k for follow-up grants. (e.g. 12,000 USD). This and the costs for each milestone need to be in USD; if the grant is paid out in Luna, the amount will be calculated according to the exchange rate at the time of payment.
 
-### Milestone 1 Example — Implement Terra Modules
-
-- **Estimated duration:** 1 month
-- **FTE:** 2
-- **Costs:** 8,000 USD
-
-[Example Milestone Table](https://github.com/terramoney/terra-money-grants/blob/main/Untitled%20Database%20076bcbe63d9348558de4e6688af1d89e.csv)
-
-### Milestone 2 Example — Additional features
-
-- **Estimated Duration:** 1 month
-- **FTE:** 1
-- **Costs:** 4,000 USD
-
-Flappy Bird Development Timeline
+*Flappy Bird Development Timeline*
 
 Use of proceeds - $30,000 to get Starloop started
 
