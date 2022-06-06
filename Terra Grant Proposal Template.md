@@ -31,7 +31,7 @@ With this in mind our intention is to launch a Flappy Bird game on the Terra blo
 
 
 ### Project Details
-We will be partnering with the gaming development studio StarLoop Studios, which has been vetted by members of the Terra team for the initial build out. Their TDD for flappy is as follows:
+We will be partnering with the internal developers or a gaming development studio, which has been vetted by members of the Terra team for the initial build out. The TDD for flappy is as follows:
 
 *Flappy Bird TerraLuna TDD Overview*
  
@@ -228,7 +228,7 @@ Upgrade of NFT will occur in the following flow:
 
 **Other components**
 - Terra Station Wallet: Once Terra Station allows the login to the Flappy game, users do not have to login every time they play the game (unless the game has been updated or renewed)
-  - Try to make it so that blockchain doesn’t seem to be involved - Starloop might have an idea
+  - Try to make it so that blockchain doesn’t seem to be involved 
 - Game Server: Every time there is an interaction between the game and the blockchain, a transaction has to be sent from the game to the chain in order to update the new state (for instance, if the user levels up, a transaction must be sent to the chain to update the state of the NFT)
   - One reason for having a centralized game server in the middle is due to potential transaction manipulation: Only authorized keys must be able to sign transactions that record level ups.
 
@@ -245,19 +245,17 @@ Upgrade of NFT will occur in the following flow:
 ### Team members
 
 - Jonathan David: Co-Founder
-- Chris Langbein: Co-Founder
-- Starloop/TBD: CTO / Product Development 
-   - Starloop Studios will handle initial development until we are out of beta, where upon an internal CTO and tech team will be hired.
+- Alex Ruthizer: Co-Founder
+- TBD: CTO / Product Development 
+   - Gaming devs or contracted studio will handle initial development until we are out of beta, where upon an internal CTO and tech team will be hired.
 - Elena Montijo: Chief Creative Officer
-- Will: Advisor
-- Joe: Advisor
-- Alex Ruthizer: Advisor
+- Chris Langbein: Advisor
 
 
 ### Contact
 
 - **Contact Name:** Jonathan David
-- **Contact Email:** jonathan@flappybirdterra.com
+- **Contact Email:** jonathan@blockpointcapital.com
 - **Website:** http://flappybirdterra.com/ *Under Development*
 
 ### Legal Structure
@@ -291,17 +289,15 @@ Please also provide the GitHub accounts of all team members. If they contain no 
   - [Mobile Media Partners](https://www.mobilemediaco.com/)
   - [Go Club](https://goclubgolf.com/)
   - [Heard](https://www.tryheard.com/)
-- Haris Ali Baig
+  - Haris Ali Baig
   - [Next Frontier Labs](https://github.com/pun777chy)
 
 ### Team LinkedIn Profiles (if available)
 
 - [Jonathan David](https://www.linkedin.com/in/jonathan-david-14139370/)
+- [Alex Ruthizer](https://www.linkedin.com/in/alexruthizer/)
 - [Chris Langbein](https://www.linkedin.com/in/chris-langbein-1990a145/)
 - [Elena Montijo](https://www.linkedin.com/in/elena-montijo/)
-- [Will]
-- [Joe]
-- [Alex Ruthizer](https://www.linkedin.com/in/alexruthizer/)
  
 
 ## Development Status
@@ -315,7 +311,7 @@ If you've already started implementing your project or it is part of a larger re
 
 *Flappy Bird Development Timeline*
 
-Use of proceeds - $30,000 to get Starloop started
+Use of proceeds - $30,000 to get dev started
 
 Month 0 
 Pre-production
